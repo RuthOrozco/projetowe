@@ -53,3 +53,28 @@ footer#rodape{
     color: rgb(9, 158, 238);
     margin-top: 30px;
 }
+div#banner{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 2px;
+}
+div#banner img{
+    width: 100%;
+}
+div#anuciostablet{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: rgb(71, 59, 82);
+    color: aliceblue;
+    padding:10px auto;
+    display: none;
+}
+/*média query*/
+@media screen and (min-width:641px)and (max-width:768px){
+    div#anunciostablet{
+        display: block;/*mostra*/
+    }
+
+}
