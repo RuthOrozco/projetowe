@@ -1,0 +1,57 @@
+#body{
+    margin: 0px;
+
+}
+#topo{
+
+    
+    width: 100%;
+    background-color: rgb(53, 65, 151);
+    height: 50px;
+    
+}
+
+.largura-site{
+    width: 900px;
+    margin: auto;/*centraliza na pagina*/
+}
+#logotipo{
+    width: 140px;
+    height: 24px;
+    float: left;
+    margin: 10px;
+}
+#menu{
+    width: auto;
+    height: auto;
+    float: right;
+    margin-top: 10px;
+}
+#menu a{
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 50px;
+
+}
+#menu a:hover{
+    text-decoration: underline; /*sublinhado qunado esta o mause cima do menu*/
+}
+.imghome{
+    float: left ;
+    margin-top: 100px;
+  
+}
+#conteudohome{
+    width: 545px;
+    float: right;
+    height: auto;
+    margin-top: 80px;
+}
+.conteudo{
+    width: 100%;
+    height: auto;
+    float: left;
+    border-bottom: 1px solid #73B9FF;
+}  
+    
